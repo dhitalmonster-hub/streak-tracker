@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Streak Tracker</title>
+<meta name="description" content="Streak Tracker -- per-user check-in streak on Stacks Clarity 4" />
+<meta name="talentapp:project_verification" content="<verification-tag-pending>">
+<style>
+  :root { color-scheme: dark; }
+  body {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    background: #1a1208; color: #efe6d2;
+    max-width: 560px; margin: 0 auto; padding: 36px 18px;
+    line-height: 1.5;
+  }
+  h1 { font-size: 26px; margin-bottom: 6px; color: #f4b942; }
+  p.tagline { color: #b59663; margin-top: 0; }
+  .card {
+    background: #2a1d0c; border: 1px solid #4a3a18; border-radius: 6px;
+    padding: 24px; margin: 22px 0; display: flex; align-items: center; gap: 18px;
+  }
+  .num { font-size: 52px; color: #f4b942; line-height: 1; min-width: 80px; text-align: center; }
+  .meta { color: #b59663; font-size: 13px; }
+  .meta b { color: #efe6d2; font-weight: 400; }
+  button {
+    background: #f4b942; color: #1a1208; border: 0; padding: 12px 26px;
+    border-radius: 5px; font-size: 15px; cursor: pointer; font-family: inherit; font-weight: 600;
+  }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+  .row { display: flex; gap: 10px; }
+  .addr, .log { font-size: 12px; color: #b59663; word-break: break-all; }
+  .log { margin-top: 16px; }
+  .log code { color: #efe6d2; background: #1a1208; padding: 2px 5px; border-radius: 3px; }
+  a { color: #f4b942; }
+</style>
+</head>
+<body>
+  <h1>Streak Tracker</h1>
+  <p class="tagline">Check in once per block, extend your streak.</p>
+
+  <div class="card">
+    <div class="num" id="streak">0</div>
+    <div class="meta">
+      <div>your streak</div>
+      <div style="margin-top:6px;"><b id="who">not connected</b></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <button id="connect">Connect Wallet</button>
+    <button id="check" disabled>Check In</button>
+  </div>
+
+  <div class="log" id="log"></div>
+
+  <p class="addr" style="margin-top:32px;">
+    Contract: <a id="contractLink" target="_blank" rel="noopener"></a><br />
+    Network: Stacks Mainnet &middot; Clarity 4
+  </p>
+
+<script type="module">
+  import { showConnect, openContractCall } from "https://esm.sh/@stacks/connect@7.7.1";
+  import { PostConditionMode } from "https://esm.sh/@stacks/transactions@6.17.0";
+
+  const CONTRACT_ADDRESS = "SP20Z3WPE6PVN1B8APDQNDH5BR1AJNMR25QPCSGFT";
+  const CONTRACT_NAME    = "streak-tracker";
+  const APP_NAME         = "Streak Tracker";
+
+  const $ = (id) => document.getElementById(id);
+  $("contractLink").href = `https://explorer.hiro.so/${CONTRACT_ADDRESS}.${CONTRACT_NAME}?chain=mainnet`;
+  $("contractLink").textContent = `${CONTRACT_ADDRESS}.${CONTRACT_NAME}`;
+
+  $("connect").onclick = () => {
+    showConnect({
+      appDetails: { name: APP_NAME, icon: window.location.origin + "/icon.png" },
+      onFinish: ({ userSession }) => {
+        const ud = userSession.loadUserData();
+        $("who").textContent = ud.profile.stxAddress.mainnet.slice(0, 8) + "...";
+        $("check").disabled = false;
+      },
+    });
+  };
+
+  $("check").onclick = () => {
+    openContractCall({
+      contractAddress: CONTRACT_ADDRESS,
+      contractName:    CONTRACT_NAME,
+      functionName:    "check-in",
+      functionArgs:    [],
+      postConditionMode: PostConditionMode.Allow,
+      network: "mainnet",
+      appDetails: { name: APP_NAME, icon: window.location.origin + "/icon.png" },
+      onFinish: (data) => {
+        $("log").innerHTML = `check-in tx: <code>${data.txId}</code> &mdash; <a href="https://explorer.hiro.so/txid/${data.txId}?chain=mainnet" target="_blank">explorer</a>`;
+      },
+    });
+  };
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "contractId": "SP20Z3WPE6PVN1B8APDQNDH5BR1AJNMR25QPCSGFT.streak-tracker",
+  "deployer": "SP20Z3WPE6PVN1B8APDQNDH5BR1AJNMR25QPCSGFT",
+  "txid": "4624447c3473c07b01f7fd4d2426bb6e69a0672dbd4a0a4c9b158c018a5ed593",
+  "submittedAt": "2026-05-11T19:13:19.104Z",
+  "fee": "5000",
+  "clarityVersion": 4,
+  "explorer": "https://explorer.hiro.so/txid/4624447c3473c07b01f7fd4d2426bb6e69a0672dbd4a0a4c9b158c018a5ed593?chain=mainnet"
+}
