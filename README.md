@@ -21,3 +21,7 @@ Static HTML in `frontend/`. Connect, check in.
 ## License
 
 MIT
+
+---
+
+_Last updated: 2026-05-12_
