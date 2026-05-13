@@ -15,3 +15,4 @@
 - 2026-05-13 — minor cleanup and polish (usc2)
 - 2026-05-13 — small wording fixes (t9x0)
 - 2026-05-13 — tighten docs (v7xj)
+- 2026-05-13 — small doc improvements (z51n)
