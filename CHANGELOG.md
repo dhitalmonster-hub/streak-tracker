@@ -17,3 +17,4 @@
 - 2026-05-13 — tighten docs (v7xj)
 - 2026-05-13 — small doc improvements (z51n)
 - 2026-05-13 — routine maintenance (vwag)
+- 2026-05-13 — tidy up notes (bmmz)
