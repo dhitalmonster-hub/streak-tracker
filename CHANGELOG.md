@@ -18,3 +18,4 @@
 - 2026-05-13 — small doc improvements (z51n)
 - 2026-05-13 — routine maintenance (vwag)
 - 2026-05-13 — tidy up notes (bmmz)
+- 2026-05-13 — refresh build metadata (8kb9)
