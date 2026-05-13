@@ -8,3 +8,5 @@
 - 2026-05-13 — small refinements (gdqo)
 - 2026-05-13 — small wording fixes (izwe)
 - 2026-05-13 — tidy up notes (qmks)
+- 2026-05-13 — routine maintenance (z67y)
+- 2026-05-13 — small wording fixes (osit)
