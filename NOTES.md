@@ -17,3 +17,4 @@ Dev journal — informal.
 - 2026-05-13: idea: tiny visual polish on the home page
 - 2026-05-13: micro-task: align dates in changelog format
 - 2026-05-13: idea: tiny visual polish on the home page
+- 2026-05-13: thinking about cleanup of contract entry point
