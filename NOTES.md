@@ -19,3 +19,4 @@ Dev journal — informal.
 - 2026-05-13: idea: tiny visual polish on the home page
 - 2026-05-13: thinking about cleanup of contract entry point
 - 2026-05-13: thought: maybe a small "how it works" section
+- 2026-05-13: thinking about cleanup of contract entry point
