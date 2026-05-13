@@ -20,3 +20,4 @@
 - 2026-05-13 — tidy up notes (bmmz)
 - 2026-05-13 — refresh build metadata (8kb9)
 - 2026-05-13 — housekeeping pass (4un7)
+- 2026-05-13 — small doc improvements (k7fu)
