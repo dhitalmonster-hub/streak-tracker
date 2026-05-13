@@ -6,3 +6,4 @@
 - 2026-05-12 — small refinements (vum3)
 - 2026-05-13 — small refinements (0dnx)
 - 2026-05-13 — small refinements (gdqo)
+- 2026-05-13 — small wording fixes (izwe)
