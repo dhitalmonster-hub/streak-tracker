@@ -24,3 +24,4 @@
 - 2026-05-13 — routine maintenance (ppjr)
 - 2026-05-14 — small wording fixes (4e2b)
 - 2026-05-14 — routine maintenance (jzqq)
+- 2026-05-14 — tidy up notes (aa8j)
