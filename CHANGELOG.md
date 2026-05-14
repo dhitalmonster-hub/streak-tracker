@@ -33,3 +33,4 @@
 - 2026-05-14 — small wording fixes (jabg)
 - 2026-05-14 — small wording fixes (eeve)
 - 2026-05-14 — tidy up notes (6pdw)
+- 2026-05-14 — housekeeping pass (0eq3)
