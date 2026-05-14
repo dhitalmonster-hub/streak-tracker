@@ -30,3 +30,5 @@
 - 2026-05-14 — small wording fixes (4ha9)
 - 2026-05-14 — small doc improvements (oany)
 - 2026-05-14 — minor cleanup and polish (8zag)
+- 2026-05-14 — small wording fixes (jabg)
+- 2026-05-14 — small wording fixes (eeve)
