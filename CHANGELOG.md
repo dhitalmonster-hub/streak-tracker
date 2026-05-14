@@ -27,3 +27,4 @@
 - 2026-05-14 — tidy up notes (aa8j)
 - 2026-05-14 — tighten docs (rke3)
 - 2026-05-14 — small doc improvements (10pk)
+- 2026-05-14 — small wording fixes (4ha9)
