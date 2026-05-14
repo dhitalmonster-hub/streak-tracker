@@ -22,3 +22,5 @@
 - 2026-05-13 — housekeeping pass (4un7)
 - 2026-05-13 — small doc improvements (k7fu)
 - 2026-05-13 — routine maintenance (ppjr)
+- 2026-05-14 — small wording fixes (4e2b)
+- 2026-05-14 — routine maintenance (jzqq)
