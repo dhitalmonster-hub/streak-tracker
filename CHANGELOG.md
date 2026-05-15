@@ -41,3 +41,4 @@
 - 2026-05-15 — small wording fixes (xoke)
 - 2026-05-15 — housekeeping pass (fg79)
 - 2026-05-15 — tighten docs (mhtx)
+- 2026-05-15 — routine maintenance (vnqf)
