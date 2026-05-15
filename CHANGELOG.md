@@ -37,3 +37,4 @@
 - 2026-05-15 — housekeeping pass (7l1q)
 - 2026-05-15 — routine maintenance (d5w8)
 - 2026-05-15 — misc tweaks (gmjv)
+- 2026-05-15 — small refinements (vgn2)
