@@ -34,3 +34,4 @@ Dev journal — informal.
 - 2026-05-15: note: keep the frontend layout untouched for now
 - 2026-05-15: idea: tiny visual polish on the home page
 - 2026-05-15: todo: better empty-state copy
+- 2026-05-15: thought: maybe a small "how it works" section
