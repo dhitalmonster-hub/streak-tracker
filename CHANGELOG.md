@@ -43,3 +43,4 @@
 - 2026-05-15 — tighten docs (mhtx)
 - 2026-05-15 — routine maintenance (vnqf)
 - 2026-05-16 — small wording fixes (w5yx)
+- 2026-05-16 — tidy up notes (evpb)
