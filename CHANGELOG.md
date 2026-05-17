@@ -56,3 +56,5 @@
 - 2026-05-17 — routine maintenance (0ldk)
 - 2026-05-17 — housekeeping pass (duo4)
 - 2026-05-17 — minor cleanup and polish (q1kw)
+- 2026-05-17 — routine maintenance (ne9h)
+- 2026-05-17 — small doc improvements (1ix0)
