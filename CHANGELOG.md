@@ -51,3 +51,4 @@
 - 2026-05-17 — small refinements (awwk)
 - 2026-05-17 — refresh build metadata (xx8t)
 - 2026-05-17 — small refinements (3qms)
+- 2026-05-17 — refresh build metadata (2nm2)
