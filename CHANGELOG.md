@@ -62,3 +62,5 @@
 - 2026-05-18 — routine maintenance (ccv1)
 - 2026-05-18 — housekeeping pass (xtdi)
 - 2026-05-18 — small refinements (s36o)
+- 2026-05-18 — small doc improvements (qdyd)
+- 2026-05-18 — routine maintenance (zonp)
