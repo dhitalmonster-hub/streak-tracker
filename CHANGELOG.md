@@ -59,3 +59,5 @@
 - 2026-05-17 — routine maintenance (ne9h)
 - 2026-05-17 — small doc improvements (1ix0)
 - 2026-05-18 — small doc improvements (c1tb)
+- 2026-05-18 — routine maintenance (ccv1)
+- 2026-05-18 — housekeeping pass (xtdi)
