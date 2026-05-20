@@ -66,3 +66,4 @@
 - 2026-05-18 — routine maintenance (zonp)
 - 2026-05-20 — small wording fixes (jtqn)
 - 2026-05-20 — small wording fixes (8vx3)
+- 2026-05-20 — refresh build metadata (8lvk)
