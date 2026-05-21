@@ -72,3 +72,4 @@
 - 2026-05-21 — minor cleanup and polish (5g5p)
 - 2026-05-21 — tidy up notes (sg78)
 - 2026-05-21 — tidy up notes (jrg4)
+- 2026-05-21 — misc tweaks (gd6h)
