@@ -77,3 +77,4 @@
 - 2026-05-22 — minor cleanup and polish (nyd6)
 - 2026-05-22 — small refinements (sf2n)
 - 2026-05-22 — minor cleanup and polish (877e)
+- 2026-05-22 — refresh build metadata (xux6)
