@@ -73,3 +73,5 @@
 - 2026-05-21 — tidy up notes (sg78)
 - 2026-05-21 — tidy up notes (jrg4)
 - 2026-05-21 — misc tweaks (gd6h)
+- 2026-05-22 — routine maintenance (r3p9)
+- 2026-05-22 — minor cleanup and polish (nyd6)
