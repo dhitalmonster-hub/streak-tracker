@@ -75,3 +75,4 @@ Dev journal — informal.
 - 2026-05-21: reminder: keep docs in sync with on-chain calls
 - 2026-05-21: reminder: keep docs in sync with on-chain calls
 - 2026-05-22: reminder: keep docs in sync with on-chain calls
+- 2026-05-23: idea: tiny visual polish on the home page
