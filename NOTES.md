@@ -78,3 +78,5 @@ Dev journal — informal.
 - 2026-05-23: idea: tiny visual polish on the home page
 - 2026-05-23: considering a small tweak to UX copy
 - 2026-05-23: considering a small tweak to UX copy
+- 2026-05-25: reminder: keep docs in sync with on-chain calls
+- 2026-05-25: tbd: feedback widget on landing
