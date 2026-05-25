@@ -82,3 +82,4 @@ Dev journal — informal.
 - 2026-05-25: tbd: feedback widget on landing
 - 2026-05-25: tbd: feedback widget on landing
 - 2026-05-25: thought: maybe a small "how it works" section
+- 2026-05-25: reminder: keep docs in sync with on-chain calls
