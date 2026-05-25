@@ -83,3 +83,4 @@
 - 2026-05-23 — small refinements (3ftx)
 - 2026-05-23 — minor cleanup and polish (wfzy)
 - 2026-05-23 — housekeeping pass (tosy)
+- 2026-05-25 — refresh build metadata (9kfg)
