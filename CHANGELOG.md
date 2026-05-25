@@ -85,3 +85,4 @@
 - 2026-05-23 — housekeeping pass (tosy)
 - 2026-05-25 — refresh build metadata (9kfg)
 - 2026-05-25 — refresh build metadata (ravt)
+- 2026-05-25 — tighten docs (hlik)
