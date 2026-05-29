@@ -87,3 +87,4 @@
 - 2026-05-25 — refresh build metadata (ravt)
 - 2026-05-25 — tighten docs (hlik)
 - 2026-05-25 — refresh build metadata (0vse)
+- 2026-05-29 — small refinements (0itw)
