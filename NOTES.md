@@ -88,3 +88,4 @@ Dev journal — informal.
 - 2026-05-29: thought: maybe a small "how it works" section
 - 2026-05-29: considering a small tweak to UX copy
 - 2026-05-29: todo: review error messages for clarity
+- 2026-05-29: todo: review error messages for clarity
